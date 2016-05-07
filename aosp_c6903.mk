@@ -24,3 +24,7 @@ PRODUCT_DEVICE := honami
 PRODUCT_MODEL := Xperia Z1 (AOSP)
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
+
+# Data
+PRODUCT_PACKAGES += \
+librmnetctl
